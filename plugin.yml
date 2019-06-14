@@ -1,0 +1,18 @@
+name: ItemShop
+main: net.evmodder.ItemShop.ItemShop
+author: EvModder/Kai_Be
+version: 1.0 #0=initial
+api-version: 1.13
+
+commands:
+   example-command:
+      description: Example description
+      usage: /example-command <arg>
+      aliases: [example-cmd]
+      permission: itemshop.examplecmd
+      permission-message: You do not have permission to do this.
+
+permissions:
+   itemshop.examplecmd:
+      description: Permission to use /example-command
+      default: op
