@@ -5,7 +5,6 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
-import org.bukkit.inventory.ItemStack;
 
 public class ShopInteractListener implements Listener{
 	final ItemShop plugin;
@@ -24,7 +23,7 @@ public class ShopInteractListener implements Listener{
 		//TODO: test is itemframe is a shop?
 
 		if(plugin.isOwner(playerUUID, frameUUID)){
-			ItemStack itemInHand = evt.getPlayer().getInventory().getItemInMainHand();
+			//ItemStack itemInHand = evt.getPlayer().getInventory().getItemInMainHand();
 			//TODO: put item in shop?
 		}
 	}
