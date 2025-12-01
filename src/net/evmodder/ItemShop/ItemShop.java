@@ -1,7 +1,7 @@
 package net.evmodder.ItemShop;
 
 import java.util.UUID;
-import net.evmodder.EvLib.EvPlugin;
+import net.evmodder.EvLib.bukkit.EvPlugin;
 
 public class ItemShop extends EvPlugin{
 	private static ItemShop plugin;
